@@ -36,6 +36,7 @@ public class PersonForEquals {
     public boolean equals(Object obj) {
         // TODO: please modify the following code to pass the test
         // <--start
+        hashCode(obj.equals(null));
         throw new NotImplementedException();
         // --end-->
     }

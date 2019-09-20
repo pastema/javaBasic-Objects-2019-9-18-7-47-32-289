@@ -8,6 +8,7 @@ import com.cultivation.javaBasic.util.MyClosableType;
 import com.cultivation.javaBasic.showYourIntelligence.StringFormatException;
 import org.junit.jupiter.api.Test;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Optional;
 
@@ -43,7 +44,7 @@ class ExceptionTest {
 
         // TODO: please modify the following code to pass the test
         // <--start
-        final int expectedResult = Integer.MAX_VALUE;
+        final int expectedResult = confuse(2);
         // --end-->
 
         assertEquals(expectedResult, confusedResult);
@@ -60,7 +61,7 @@ class ExceptionTest {
 
         // TODO: please modify the following code to pass the test
         // <--start
-        final Optional<Boolean> expected = Optional.empty();
+        final Optional<Boolean> expected = Optional.of(true);
         // --end-->
 
         assertEquals(expected.get(), closableStateReference.isClosed());
@@ -81,7 +82,8 @@ class ExceptionTest {
 
         // TODO: please modify the following code to pass the test
         // <--start
-        final String[] expected = {};
+        final String[] expected = {"ClosableWithException.close", "ClosableWithoutException.close"};
+
         // --end-->
 
         assertArrayEquals(
