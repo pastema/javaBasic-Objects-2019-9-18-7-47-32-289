@@ -14,11 +14,38 @@ Each repository contains a gradle java project with a number of unit tests. The 
 * Answer the following 4 questions after the test is passed.
 
 The 4 questions are:
-
+##Exception Test
 1. What is the knowledge point of the test? Where is the offical document to the knowledge point?
+	- To understand how the methods work and function.
 1. Why the test failed at first?
+	- Using the wrong methods and not understanding properly the instruction.
 1. Why you corrected the test that way?
+	- I followed the methods on where its being thrown and understanding the flow of it.
 1. Do you have further questions on this knowledge point?
+	- None.
+
+##Inheritance Test
+1. What is the knowledge point of the test? Where is the offical document to the knowledge point?
+	- To understand the use of classes inheritance.
+1. Why the test failed at first?
+	- Because I failed to properly understand the required output.
+1. Why you corrected the test that way?
+	- I followed the flow of the given method and come up with the correct answer.
+1. Do you have further questions on this knowledge point?
+	- None.
+
+
+##Object Test
+1. What is the knowledge point of the test? Where is the offical document to the knowledge point?
+	- To know the use of objects and how to apply it.
+1. Why the test failed at first?
+	- Because I failed to understand the flow of the method using the objects.
+1. Why you corrected the test that way?
+	- I studied the flow and understood what it was doing.
+1. Do you have further questions on this knowledge point?
+	- None.
+
+
 
 ## Example
 
